@@ -12,3 +12,4 @@ if sys.argv[2] == "deg":
 if sys.argv[2] == "rad":
     W = lambda x:  print(str(t.forward(x % 10 + int(sys.argv[3]))) + str(t.right(math.radians(x) % int(sys.argv[4]) + int(sys.argv[3]))))
 print(list(map(W, b)))
+turtle.mainloop()
